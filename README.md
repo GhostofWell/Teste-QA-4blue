@@ -1,6 +1,6 @@
 # Teste-QA-4blue
 
-# Bug N°1: Severidade Crítica, Prioridade Alta
+## Bug N°1: Severidade Crítica, Prioridade Alta
 Titulo: Login > Criar Conta - Validação de campos não sendo realizada.
 
 Descrição: Identificado nos testes que os campos na tela de cadastro não contém validações e nem obrigatoriedade de preenchimento, bem como não contém limite de caracteres para os campos, como por exemplo:
