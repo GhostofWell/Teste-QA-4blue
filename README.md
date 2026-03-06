@@ -1,6 +1,6 @@
 # Teste-QA-4blue
 
-     Bug N°1: Severidade Crítica, Prioridade Alta
+# Bug N°1: Severidade Crítica, Prioridade Alta
 Titulo: Login > Criar Conta - Validação de campos não sendo realizada.
 
 Descrição: Identificado nos testes que os campos na tela de cadastro não contém validações e nem obrigatoriedade de preenchimento, bem como não contém limite de caracteres para os campos, como por exemplo:
@@ -41,7 +41,7 @@ Evidência:
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-     Bug N°2: Severidade Alta, Prioridade Alta
+# Bug N°2: Severidade Alta, Prioridade Alta
 Titulo: Login - Validação de preenchimento dos campos.
 
 Descrição: Identificado nos testes que os campos na tela de Login não estão validando se estão preenchidos, apenas realiza a validação de Login verificando se há cadastros com o e-mail informado, permitindo assim que, caso haja um cadastro de usuário com as informações vazias (Vide Erro N°3) é possível realizar login no sistema, da seguinte forma:
@@ -60,7 +60,7 @@ Evidência:
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-     Bug N°3: Severidade Média, Prioridade Média
+# Bug N°3: Severidade Média, Prioridade Média
 Titulo: Login > Criar Conta - Cadastro de Login com campos vazios.
 
 Descrição: Identificado nos testes que está sendo possível realizar um cadastro sem preenchimento dos campos. Para reproduzir o erro é necessário:
@@ -78,7 +78,7 @@ Evidência:
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-     Bug N°4: Severidade Média, Prioridade Baixa
+# Bug N°4: Severidade Média, Prioridade Baixa
 Titulo: Login > Criar Conta - Sobreposição de campos na tela de cadastro.
 
 Descrição: Identificado nos testes que os campos na tela de cadastro estão se sobrepondo, dificultando visualmente o preenchimento dos campos e a experiencia do usuário.
@@ -95,7 +95,7 @@ Evidência:
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-     Bug N°5: Severidade Baixa, Prioridade Baixa
+# Bug N°5: Severidade Baixa, Prioridade Baixa
 Titulo: Login > Mensagem de erro e sucesso simultâneo
 
 Descrição: Identificado que após a realização do login, e exibido a mensagem de sucesso ao logar bem como uma mensagem de Erro na parte inferior esquerda da tela.
