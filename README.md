@@ -6,20 +6,24 @@ Titulo: Login > Criar Conta - Validação de campos não sendo realizada.
 Descrição: Identificado nos testes que os campos na tela de cadastro não contém validações e nem obrigatoriedade de preenchimento, bem como não contém limite de caracteres para os campos, como por exemplo:
 
   Ex¹.: Campo de "Nome Completo"
+  
 	1. Não é de preenchimento obrigatório.
 	2. Permite inserir qualquer quantidade caracteres.
 
   Ex².: Campo "Telefone"
+  
 	1. Não é de preenchimento obrigatório.
 	2. Permite inserir letras.
 	3. Não valida se o número preenchido é válido ou não.
 
   Ex³.: Campo "E-mail"
+  
 	1. Não é de preenchimento obrigatório.
 	2. Permite inserir qualquer tipo de caractere.
 	3. Não verifica se o e-mail é válido.
 
   Ex⁴.: Campo "Senha" e "Confirmar Senha"
+  
 	1. Não é de preenchimento obrigatório.
 	2. Não valida se o preenchimento do campo cumpre as regras de no mínimo 8 caracteres e ao menos 1 caractere especial.
 	3. Não valida se ambos os campos estão preenchidos corretamente, ou seja, se ambos estão iguais.
@@ -42,9 +46,9 @@ Titulo: Login - Validação de preenchimento dos campos.
 
 Descrição: Identificado nos testes que os campos na tela de Login não estão validando se estão preenchidos, apenas realiza a validação de Login verificando se há cadastros com o e-mail informado, permitindo assim que, caso haja um cadastro de usuário com as informações vazias (Vide Erro N°3) é possível realizar login no sistema, da seguinte forma:
 
-1. Abrir a tela de Login.
-2. Não preencher o campo de E-mail nem o campo de Senha.
-3. Clicar no botão "Entrar".
+	1. Abrir a tela de Login.
+	2. Não preencher o campo de E-mail nem o campo de Senha.
+	3. Clicar no botão "Entrar".
 
 Com isso será redirecionado para a tela de Sucesso no login caso haja um cadastro realizado conforme relatado no Erro N°3, ou exiba o pop-up informando que a conta não foi encontrada e deve ser criado uma conta primeiro caso não haja um cadastro realizado conforme relatado no Erro N°3.
 
@@ -61,9 +65,9 @@ Titulo: Login > Criar Conta - Cadastro de Login com campos vazios.
 
 Descrição: Identificado nos testes que está sendo possível realizar um cadastro sem preenchimento dos campos. Para reproduzir o erro é necessário:
 
-1. Acessar a tela de Login.
-2. Clicar na opção "Criar conta" presente na parte inferior.
-3. Clicar no botão "Criar conta" sem realizar o preenchimento dos campos presentes na tela.
+	1. Acessar a tela de Login.
+	2. Clicar na opção "Criar conta" presente na parte inferior.
+	3. Clicar no botão "Criar conta" sem realizar o preenchimento dos campos presentes na tela.
 
 Com isso será redirecionado para a tela de sucesso ao realizar o cadastro e agora é possível realizar o login sem preenchimento dos campos de login apenas clicando no botão "Entrar" (Vide Erro N°2).
 
@@ -79,8 +83,8 @@ Titulo: Login > Criar Conta - Sobreposição de campos na tela de cadastro.
 
 Descrição: Identificado nos testes que os campos na tela de cadastro estão se sobrepondo, dificultando visualmente o preenchimento dos campos e a experiencia do usuário.
 
-1. Acessar a tela de Login.
-2. Utilizar a opção "Criar conta" presente na parte inferior.
+	1. Acessar a tela de Login.
+	2. Utilizar a opção "Criar conta" presente na parte inferior.
 
 Com isso será redirecionado para a tela de cadastro, onde é possível visualizar a sobreposição dos campos.
 
